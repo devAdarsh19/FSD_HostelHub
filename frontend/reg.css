@@ -60,6 +60,12 @@ a:hover {
     cursor: pointer;
 }
 
+.btn-success a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
 /* Label for error message */
 .red {
     color: red;
