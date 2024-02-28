@@ -5,6 +5,35 @@ body {
     padding: 0;
 }
 
+#navbar-example2 {
+    display: flex;
+    align-items: center;
+    background: #e3f6e3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar-example2 h1 {
+    color: #000;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+#navbar-example2 .nav .nav-item a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+#navbar-example2 .nav .nav-item a:hover {
+    transform: scale(1.05);
+}
+
 .container {
     width: 50%;
     margin: 20px auto;
