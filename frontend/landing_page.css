@@ -1,0 +1,253 @@
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap') */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+} */
+
+p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    /* color: #465b52; */
+    /* margin: 15px 0 20px 0; */
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 50px 0;
+}
+
+body {
+    width: 100%;
+}
+
+.active {
+    content: '';
+}
+
+/* Navbar */
+
+#navbar-example2 {
+    display: flex;
+    align-items: center;
+    background: #e3f6e3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar-example2 h1 {
+    color: #000;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+#navbar-example2 .nav .nav-item a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+#navbar-example2 .nav .nav-item a:hover {
+    transform: scale(1.05);
+}
+
+#navbar-example2 .nav .dropdown-menu {
+    background-color: #e3f6e3;
+}
+
+/* Carousel */
+
+#carouselExampleIndicators {
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    width: 100%;
+    height: 600px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    height: 600px;
+    padding: 0 100px;
+}
+
+/* About section */
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    margin: 80px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#about .intro-text {
+    width: 800px;
+}
+
+#about .intro-text h4 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#about .intro-text ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+#about .intro-ques-mark img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -10px;
+    right: 100px;
+    transition: .5s ease;
+}
+
+#about .intro-ques-mark img:hover {
+    width: 210px;
+    height: 210px;
+}
+
+/* Accomodation section */
+
+#accomodation {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#accomodation .acc-img {
+    display: flex;
+    justify-content: space-evenly;
+    text-wrap: wrap;
+}
+
+#accomodation .acc-img img {
+    height: 300px;
+    width: 400px;
+}
+
+#accomodation .acc-text {
+    width: 800px;
+}
+
+#accomodation .acc-text h4 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Facilities */
+
+#facilities {
+    margin: 80px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#facilities .fac-text h4 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#facilities .fac-text ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background-color: #222;
+    color: #fff;
+}
+
+#footer .col-1 .contact-details {
+    width: 500px;
+}
+
+#footer .col-1 .contact-details h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#footer .col-1 .contact-details h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#footer .col-2 .imp-links {
+    position: relative;
+    right: 150px;
+    width: 800px;
+    padding-right: 10px;
+}
+
+#footer .col-2 .imp-links h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#footer .col-2 .imp-links h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

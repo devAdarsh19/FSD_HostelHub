@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container h1 {
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.container img {
+    margin-bottom: 20px;
+}

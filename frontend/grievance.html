@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Grievance Submission</title>
+    <link rel="stylesheet" href="griev.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hostel Grievance Submission</h2>
+        <form method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="room">Your Room Number</label>
+            <input type="text" id="room" name="room" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="priority">Complaint Priority</label>
+            <select id="priority" name="priority" required>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <label for="grievance1">Grievance 1</label>
+            <textarea id="grievance1" name="grievance1" required></textarea>
+
+            <label for="grievance2">Grievance 2</label>
+            <textarea id="grievance2" name="grievance2"></textarea>
+
+            <label for="actions">Requested Actions</label>
+            <textarea id="actions" name="actions" required></textarea>
+
+            <button class="submit-btn" type="submit"><a href="./acknowledge.html">Submit Grievance</a></button>
+        </form>
+    </div>
+</body>
+</html>

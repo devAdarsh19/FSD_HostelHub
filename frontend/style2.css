@@ -1,0 +1,183 @@
+body {
+    display: grid;
+    place-items:center;
+    gap:50px;
+    height: 110vh;
+    margin: 0;
+    padding: 0 32px;
+    background: color #8421ab;
+}
+@media (width>= 500px){
+    body{ padding: 0;}
+
+.login-container {
+    margin: 0;
+    width: 400px;
+}
+}
+
+.background {
+    position: fixed;
+    top: -50vmin;
+    left: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    border-radius: 
+    47% 53% 61% 39% /
+    45% 51% 49% 55% ;
+    background: #007bff;
+}
+.login-container {
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    width: 94%;
+    margin: 0 20px;
+    padding: 170px 30px 54px;
+    border-radius: 24px;
+    background-color: antiquewhite;
+    text-align: center;
+    box-shadow:
+     0 100px 100px
+    rgb(0 0 0 / 10%);
+}
+
+.login-container::before{
+    content: "";
+    position: absolute;
+    top:  -880px;
+    left: 50%;
+    translate: -50% 0;
+    width:  1000px;
+    height:  1000px;
+    border-radius:  50%;
+    background: #ab9421;
+}
+
+.login-container::after{
+    content: "";
+    position: inherit;
+    right:  -50vmin;
+    bottom: -55vmin;
+    width:  inherit;
+    height:  inherit;
+    border-radius:  inherit;
+    background: #217bab;
+}
+
+.login-container.logo{
+    position: absolute;
+    top: 30px;
+    left:  50%;
+    translate: -50% 0;
+    width: 64px;
+    height: 64px;
+}
+
+.login-container h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 38px;
+    color: rgb(0 0 0 / 38%);
+}
+
+.input-group {
+    width: 300px;
+    position: relative;
+    margin: 0 0 44px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.input-group span {
+    position: relative;
+    top: 5px;
+    left: 0;
+}
+
+.input-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+/* .input-group input[type="email"],
+.input-group input[type="password"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.login-container label {
+    font-size: 18px;
+}
+
+.login-container .input-group {
+    position: relative;
+    left: 18px;
+}
+
+.login-container .input-group input {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container .login-btn {
+    margin: 10px 0;
+    width: 350px;
+}
+
+.login-container .login-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container > footer{
+    color: blueviolet;
+}
+
+.login-container > footer > a{
+    color: chocolate;
+}
+
+#register {
+    color: #000;
+    font-size: 18px;
+}

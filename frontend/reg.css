@@ -1,0 +1,118 @@
+/* Add your general styles here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    color: #333;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#page-wrapper {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.panel {
+    margin-top: 20px;
+}
+
+/* Header styles */
+.page-header.titlehms {
+    color: #31708f;
+    border-bottom: 2px solid #31708f;
+    padding-bottom: 10px;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-group-addon {
+    background-color: #428bca;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-group-addon i {
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Label for error message */
+.red {
+    color: red;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #page-wrapper {
+        padding: 15px;
+    }
+
+    .panel {
+        margin-top: 15px;
+    }
+}
+
+/* Additional styles for full-width layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-4 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for datepicker */
+.datepicker {
+    width: 100%;
+}
+
+/* Styling for file input */
+input[type="file"] {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
